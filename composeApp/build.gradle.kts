@@ -52,6 +52,7 @@ kotlin {
             implementation(libs.ktor.client.content.negotiation)
             implementation(libs.kotlinx.coroutines.core)
             implementation(libs.koin.compose)
+            implementation(libs.kamel.image)
         }
     }
 }

@@ -17,6 +17,7 @@ androidx-espresso-core = "3.5.1"
 kotlin = "1.9.21"
 ktor = "2.3.6"
 koin = "1.1.0"
+kamel-image = "0.9.0"
 junit = "4.13.2"
 
 [libraries]
@@ -43,6 +44,7 @@ ktor-client-darwin = { module = "io.ktor:ktor-client-darwin", version.ref = "kto
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
 koin-compose = { group = "io.insert-koin", name = "koin-compose", version.ref = "koin" }
+kamel-image = { group = "media.kamel", name = "kamel-image", version.ref = "kamel-image" }
 
 [plugins]
 jetbrainsCompose = { id = "org.jetbrains.compose", version.ref = "compose-plugin" }

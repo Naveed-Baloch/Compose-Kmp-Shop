@@ -13,7 +13,6 @@ val appModule = module {
         HttpClient {
             install(ContentNegotiation) {
                 json(json = Json { ignoreUnknownKeys = true }, contentType = ContentType.Any)
-
             }
         }
     }
