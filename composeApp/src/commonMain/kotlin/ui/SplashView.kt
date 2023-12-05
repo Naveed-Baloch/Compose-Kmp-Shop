@@ -127,7 +127,6 @@ fun SlidingDialog(showDialog: Boolean, modifier: Modifier = Modifier, onDismiss:
                         fontSize = 20.sp,
                     )
                 }
-//                Spacer(modifier = Modifier.height(20.dp))
             }
         }
     }

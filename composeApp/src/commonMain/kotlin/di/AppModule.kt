@@ -16,6 +16,6 @@ val appModule = module {
             }
         }
     }
-    single{ ShopRepo(get()) }
+    single { ShopRepo(get()) }
 }
 

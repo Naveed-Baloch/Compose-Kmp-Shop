@@ -22,14 +22,14 @@ fun MainScreen(repo: ShopRepo = koinInject()) {
         repo.getProducts().collect {
             isLoading = it is Result.Loading
             isError = it is Result.Error
-            if(it is Result.Success){
+            if (it is Result.Success) {
                 screenView = ScreenView.Home
                 products = it.data?.toMutableList() ?: emptyList()
             }
         }
     }
     when (screenView) {
-        ScreenView.Splash -> SplashView(isError = isError, onRetry = { isError = false})
+        ScreenView.Splash -> SplashView(isError = isError, onRetry = { isError = false })
         ScreenView.Home -> HomeScreen(products = products)
     }
 }
