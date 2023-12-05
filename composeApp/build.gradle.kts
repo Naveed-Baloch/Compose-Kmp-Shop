@@ -33,13 +33,21 @@ kotlin {
             implementation(libs.compose.ui)
             implementation(libs.compose.ui.tooling.preview)
             implementation(libs.androidx.activity.compose)
+            implementation(libs.ktor.client.okhttp)
         }
+
+        iosMain.dependencies {
+            implementation(libs.ktor.client.darwin)
+        }
+
         commonMain.dependencies {
             implementation(compose.runtime)
             implementation(compose.foundation)
             implementation(compose.material)
             @OptIn(ExperimentalComposeLibrary::class)
             implementation(compose.components.resources)
+            implementation(libs.ktor.client.core)
+            implementation(libs.kotlinx.coroutines.core)
         }
     }
 }
@@ -80,6 +88,8 @@ android {
         targetCompatibility = JavaVersion.VERSION_1_8
     }
     dependencies {
+        implementation(libs.kotlinx.coroutines.android)
+
         debugImplementation(libs.compose.ui.tooling)
     }
 }
