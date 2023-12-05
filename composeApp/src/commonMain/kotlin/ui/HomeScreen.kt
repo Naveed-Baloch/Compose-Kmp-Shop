@@ -8,25 +8,13 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
-import io.ktor.client.HttpClient
-import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
-import io.ktor.serialization.kotlinx.json.json
 import kotlinx.coroutines.launch
-import kotlinx.serialization.json.Json
 import network.Result
 import network.ShopRepo
+import org.koin.compose.koinInject
 
 @Composable
-fun HomeScreen() {
-    val client = HttpClient {
-        install(ContentNegotiation) {
-            json(Json {
-                ignoreUnknownKeys = true
-                useAlternativeNames = false
-            })
-        }
-    }
-    val repo = ShopRepo(client)
+fun HomeScreen(repo: ShopRepo = koinInject()) {
     val scope = rememberCoroutineScope()
     var text by remember { mutableStateOf("Loading") }
     LaunchedEffect(true) {

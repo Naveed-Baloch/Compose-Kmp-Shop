@@ -51,6 +51,7 @@ kotlin {
             implementation(libs.ktor.client.serialization)
             implementation(libs.ktor.client.content.negotiation)
             implementation(libs.kotlinx.coroutines.core)
+            implementation(libs.koin.compose)
         }
     }
 }
