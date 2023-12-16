@@ -39,6 +39,6 @@
   <p>Fakestore API: <a href="https://fakestoreapi.com/products" target="_blank">https://fakestoreapi.com/products</a></p>
 
   <h2>Demo 🎬</h2>
-  <p>Check the Demo on LinkedIn link </p>
+  <p>Check the Demo on LinkedIn <a href="https://www.linkedin.com/posts/muhammad-naveed3_compose-kmp-ios-activity-7141704527975530496-qBfi?utm_source=share&utm_medium=member_desktop" target="_blank">Link</a> </p>
 </body>
 </html>
