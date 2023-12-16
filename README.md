@@ -39,7 +39,7 @@
   <p>Fakestore API: <a href="https://fakestoreapi.com/products" target="_blank">https://fakestoreapi.com/products</a></p>
 
   <h2>Demo 🎬</h2>
- ![ComposeKmpShop](https://github.com/Naveed-Baloch/Compose-Kmp-Shop/assets/83871075/7588ddf1-004a-4cff-acb9-eb48c2b4bfa3)
+ https://github.com/Naveed-Baloch/Compose-Kmp-Shop/assets/83871075/7588ddf1-004a-4cff-acb9-eb48c2b4bfa3
 
   <p>Check the Demo on LinkedIn <a href="https://www.linkedin.com/posts/muhammad-naveed3_compose-kmp-ios-activity-7141704527975530496-qBfi?utm_source=share&utm_medium=member_desktop" target="_blank">Link</a> </p>
 </body>
