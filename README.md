@@ -1,14 +1,44 @@
-This is a Kotlin Multiplatform project targeting Android, iOS.
-
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
-
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>A Multi-platform mobile app built with Compose Multiplatform</h1>
+  <p>This innovative application utilizes Compose Multiplatform to share both the User Interface (UI) and Business Logic seamlessly across Android and iOS platforms. This approach streamlines development, enhances code reusability, and ensures a consistent user experience regardless of the underlying operating system.</p>
 
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+  <h2>Features 🚀</h2>
+
+  <ul>
+    <li><strong>API Integration:</strong> Ktor Client</li>
+    <li><strong>JSON Parsing:</strong> Kotlinx Serialization</li>
+    <li><strong>Dependency Management:</strong> Version Catalog</li>
+    <li><strong>Dependency Injection:</strong> Koin-Compose</li>
+    <li><strong>Image Handling:</strong> Kamel</li>
+    <li><strong>State Management & Hoisting:</strong> Compose principles for reactive UI</li>
+    <li><strong>Custom Dialog Animation:</strong> Modifier Custom</li>
+    <li><strong>Splash Screen:</strong> Custom Splash Screen using</li>
+  </ul>
+
+  <h2>Getting Started 🚀</h2>
+
+  <ol>
+    <li>Clone the repository.</li>
+    <li>Open in Android Studio or Xcode.</li>
+    <li>Build and run on your desired platform.</li>
+  </ol>
+
+  <h2>Libraries Used 📚</h2>
+
+  <ul>
+    <li>Ktor Client</li>
+    <li>Kotlinx Serialization</li>
+    <li>Kamel</li>
+    <li>Koin</li>
+  </ul>
+
+  <h2>API Used 🌐</h2>
+  <p>Fakestore API: <a href="https://fakestoreapi.com/products" target="_blank">https://fakestoreapi.com/products</a></p>
+
+  <h2>Demo 🎬</h2>
+  <p>Check the Demo on LinkedIn link </p>
+</body>
+</html>
